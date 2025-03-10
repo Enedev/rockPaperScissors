@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Rock, Paper, Scissors</h1>
+    <div class="choices">
+        <div id="rock" class="choice">
+            <img src="assets/rock.png" alt="Rock">
+        </div>
+        <div id="paper" class="choice">
+            <img src="assets/paper.png" alt="Paper">
+        </div>
+        <div id="scissors" class="choice">
+            <img src="assets/scissors.png" alt="Scissors">
+        </div>
+    </div>
+    <div class="score">
+        <p>Player: <span id="player-lives">3</span> lives</p>
+        <p>Computer: <span id="computer-lives">3</span> lives</p>
+    </div>
+    <p id="result"></p>
+    <button id="reset-button">Reset Game</button>
+    <button id="cheats-button">Cheats</button>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span id="popup-close">&times;</span>
+            <p>You chose: <span id="player-choice"></span></p>
+            <p>Computer chose: <span id="computer-choice"></span></p>
+            <div class="popup-images">
+                <img id="popup-player-image" src="" alt="Player Choice">
+                <img id="popup-computer-image" src="" alt="Computer Choice">
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="modules/game.js"></script>
+    <script type="module" src="modules/ui.js"></script>
+    <script type="module" src="modules/reset.js"></script>
+</body>
+</html>
