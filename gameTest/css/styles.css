@@ -1,9 +1,8 @@
-/* Estilos generales */
 body {
-  font-family: 'Press Start 2P', cursive; /* Fuente arcade */
+  font-family: 'Press Start 2P', cursive;
   text-align: center;
-  background-color: #000; /* Fondo negro */
-  color: #00ff00; /* Texto neón verde */
+  background-color: #000;
+  color: #00ff00;
   margin: 0;
   padding: 0;
   display: flex;
@@ -14,7 +13,7 @@ body {
 }
 
 h1 {
-  color: #ff00ff; /* Título neón rosa */
+  color: #ff00ff;
   font-size: 2.5em;
   margin-bottom: 20px;
   text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
@@ -80,7 +79,6 @@ h1 {
   color: #000;
 }
 
-/* Estilos del pop-up */
 .popup {
   display: none;
   position: fixed;
@@ -114,7 +112,6 @@ h1 {
   color: #ff00ff;
 }
 
-/* Animación de slide para el pop-up */
 @keyframes slideIn {
   from {
       transform: translate(-50%, -100%);
@@ -126,7 +123,6 @@ h1 {
   }
 }
 
-/* Estilos para las imágenes dentro del pop-up */
 .popup-images {
   display: flex;
   justify-content: center;
@@ -142,14 +138,13 @@ h1 {
   box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
 }
 
-/* Estilos para el botón de Cheats */
 #cheats-button {
   margin-top: 20px;
   padding: 10px 20px;
   font-size: 1em;
   cursor: pointer;
   background-color: #000;
-  color: #ffcc00; /* Color amarillo para destacar */
+  color: #ffcc00; 
   border: 2px solid #ffcc00;
   border-radius: 5px;
   transition: background-color 0.3s, color 0.3s;
